@@ -1,0 +1,15 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.cart-container h2{
+    text-align: center;
+}
+.cart-info{
+    margin-left: 25px;
+}
