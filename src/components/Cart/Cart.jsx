@@ -5,6 +5,7 @@ const Cart = ({cart}) => { // option-3
     // console.log(props.cart); // option-1
     // const cart = props.cart;
     // const {cart} = props; // option-2
+    // console.log(cart)
     let totalPrice = 0;
     let totalShipping = 0;
     for(const product of cart){
